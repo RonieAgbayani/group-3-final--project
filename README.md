@@ -1,12 +1,3 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ordering System Group 3</title>
-    <link rel="stylesheet" href="HCI_FinalProject_Website.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
     <div class="container">
         <div class="products">
             <div class="product" onclick="selectProduct('Yellow Pad Paper')">
@@ -94,7 +85,6 @@
             <p><strong>Address:</strong> <span id="summaryAddress"></span></p>
         </div>
     </form>
-</div>
 
     <script>
         function selectProduct(item) {
